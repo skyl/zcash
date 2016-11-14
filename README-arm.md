@@ -12,6 +12,8 @@ build from source, and was ported and compiled on Debian Jessie. It SHOULD
 run on systems such as the Pine64 with as little as 1 gig of RAM (4 for
 private, shielded transactions). It is NOT recommended for mining: with
 4 cores at 2.4GHz on the Mustang, it only gets a bit over 1 solution/sec.
+This port was made possible by [Robert Nelson](https://github.com/robertcnelson) generously
+allowing us remote access to a Mustang development system.
 
 Binaries
 --------
