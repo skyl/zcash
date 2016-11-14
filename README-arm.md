@@ -13,8 +13,15 @@ run on systems such as the Pine64 with as little as 1 gig of RAM (4 for
 private, shielded transactions). It is NOT recommended for mining: with
 4 cores at 2.4GHz on the Mustang, it only gets a bit over 1 solution/sec.
 
-System Prep
------------
+Binaries
+--------
+
+Links to download binaries, both .deb files for Debian Jessie and a distro
+agnostic tarball, are on my website at:
+https://zcash.mercerweiss.com
+
+Building from source
+--------------------
 
 To build from source, you must first enter the following commands to symlink
 some tools that GNU autoconf wants to use the wrong names for (this will not
