@@ -20,6 +20,25 @@ Links to download binaries, both .deb files for Debian Jessie and a distro
 agnostic tarball, are on my website at:
 https://zcash.mercerweiss.com
 
+To download and install the .deb package for Jessie, run:
+```
+wget https://zcash.dl.mercerweiss.com/zcash-1.0.2-arm64.deb
+sudo dpkg -i zcash-1.0.2-arm64.deb
+```
+
+To install from the binary tarball on a non-Debian system, run the following commands as root:
+```
+cd /
+wget https://zcash.dl.mercerweiss.com/zcash-1.0.2-arm64.tar.gz
+tar xzvf zcash-1.0.2-arm64.tar.gz
+```
+
+After installation, to fetch and install the zkSNARK proving keys, as the user who will
+be running zcashd, run ```zcash-fetch-params```, and then follow the rest of the steps 
+after building from source in the [User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide).
+After you have created zcash.conf as outlined int he User Guide, to start Zcash simply type
+```zcashd```.
+
 Building from source
 --------------------
 
@@ -42,7 +61,7 @@ ln -s /usr/bin/strip aarch64-unknown-linux-gnu-strip
 User Guide
 ----------
 
-All steps in the normal linux [User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide) are the same, except the lines where you clone and checkout the source
+When building from source all the steps in the normal linux [User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide) are the same, except the lines where you clone and checkout the source
 code are replaced by the following 2 commands:
 
 ```
