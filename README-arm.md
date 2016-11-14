@@ -29,6 +29,7 @@ be needed in a future release):
 
 ```
 mkdir -p ~/bin
+cd ~/bin
 ln -s /usr/bin/ar aarch64-unknown-linux-gnu-ar 
 ln -s /usr/bin/g++ aarch64-unknown-linux-gnu-g++ 
 ln -s /usr/bin/gcc aarch64-unknown-linux-gnu-gcc 
