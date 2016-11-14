@@ -42,7 +42,7 @@ User Guide
 ----------
 
 All steps in the normal linux [User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide) are the same, except the lines where you clone and checkout the source
-code are replace by the following 2 commands:
+code are replaced by the following 2 commands:
 
 ```
 git clone https://github.com/radix42/zcash.git
@@ -51,13 +51,16 @@ git checkout v1.0.2-arm
 
 This was a volunteer effort, it's open source code, I'm not an employee of ZcashCo,
 so please donate to support our efforts to expand the Zcash developer ecosystem
-by porting it to as many additional platforms as possible. Donations in BTC
-may be sent to: 1L33E8M1LdXmAtgWaSgAVr4TEyDrLWk69B
+by porting it to as many additional platforms as possible. 
+Donations in BTC may be sent to: 1L33E8M1LdXmAtgWaSgAVr4TEyDrLWk69B
+
 Additional donation methods (ZEC, Paypal, etc.) are on our website at:
 https://zcash.mercerweiss.com
 
 Thank you,
 
 David Mercer
+
 Tucson, AZ
+
 radix42@gmail.com
