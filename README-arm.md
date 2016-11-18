@@ -38,8 +38,10 @@ sudo tar xzvf zcash-1.0.3-arm64.tar.gz
 After installation, to fetch and install the zkSNARK proving keys, as the user who will
 be running zcashd, run ```zcash-fetch-params```, and then follow the rest of the steps 
 after building from source in the [User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide).
-After you have created zcash.conf as outlined int he User Guide, to start Zcash simply type
-```zcashd```.
+After you have created zcash.conf as outlined int he User Guide, to start Zcash simply run:
+```
+zcashd
+```
 
 Building from source
 --------------------
