@@ -32,7 +32,7 @@ To install from the binary tarball on a non-Debian system, run the following com
 ```
 cd /
 wget https://zcash.dl.mercerweiss.com/zcash-1.0.3-arm64.tar.gz
-tar xzvf zcash-1.0.3-arm64.tar.gz
+sudo tar xzvf zcash-1.0.3-arm64.tar.gz
 ```
 
 After installation, to fetch and install the zkSNARK proving keys, as the user who will
