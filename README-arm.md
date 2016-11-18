@@ -86,4 +86,5 @@ Thank you,
 David Mercer
 
 Tucson, AZ
+
 radix42@gmail.com
