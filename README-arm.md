@@ -39,7 +39,7 @@ code are replace by the following 2 commands:
 
 ```
 git clone https://github.com/radix42/zcash.git
-git checkout v1.0.2-arm
+git checkout v1.0.3-arm
 ```
 
 This was a volunteer effort, it's open source code, I'm not an employee of ZcashCo,
