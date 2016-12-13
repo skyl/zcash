@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
 set -eu
 
@@ -43,26 +43,7 @@ EOF
     fi
 }
 
-# Use flock to prevent parallel execution.
-function lock() {
-    local lockfile=/tmp/fetch_params.lock
-    # create lock file
-    eval "exec 200>/$lockfile"
-    # acquire the lock
-    flock -n 200 \
-        && return 0 \
-        || return 1
-}
-
-function exit_locked_error {
-    echo "Only one instance of fetch-params.sh can be run at a time." >&2
-    exit 1
-}
-
 function main() {
-
-    lock fetch-params.sh \
-    || exit_locked_error
 
     cat <<EOF
 Zcash - fetch-params.sh
@@ -105,5 +86,4 @@ EOF
 }
 
 main
-rm -f /tmp/fetch_params.lock
 exit 0
